@@ -4,15 +4,15 @@
   "id": "sp-eventdrops",
 
   "info": {
-    "description": "SO Eventdrops",
+    "description": "SP D3 Eventdrops Panel for Grafana.",
     "author": {
       "name": "Segmentproxy",
       "url": "https://github.com/segmentproxy"
     },
     "keywords": ["d3", "panel"],
     "logos": {
-      "small": "src/img/oz-logo.svg",
-      "large": "src/img/oz-logo.svg"
+      "small": "src/img/logo.svg",
+      "large": "src/img/logo.svg"
     },
     "links": [
       {"name": "Project site", "url": "https://github.com/segmentproxy/sp-eventdrops"},
