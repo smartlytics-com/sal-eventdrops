@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "SP Eventdrops",
+  "id": "sp-eventdrops",
+
+  "info": {
+    "description": "SO Eventdrops",
+    "author": {
+      "name": "Segmentproxy",
+      "url": "https://github.com/segmentproxy"
+    },
+    "keywords": ["d3", "panel"],
+    "logos": {
+      "small": "src/img/oz-logo.svg",
+      "large": "src/img/oz-logo.svg"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/segmentproxy/sp-eventdrops"},
+      {"name": "MIT License", "url": "https://github.com/segmentproxy/sp-eventdrops"}
+    ],
+    "screenshots": [
+      {"name": "Showcase", "path": "src/img/screenshot-radar-showcase.jpg"}
+    ],
+    "version": "1.0.0",
+    "updated": "2018-11-23"
+  },
+  "dependencies": {
+    "grafanaVersion": "5.x.x",
+    "plugins": [ ]
+  }
+}
