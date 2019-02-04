@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["UdsEventdropsCtrl"],"mappings":";;;;;;;;AAAQA,6B,uBAAAA,iB;;;iCAGJA,iB","file":"module.js","sourcesContent":["import {UdsEventdropsCtrl} from './udseventdrops_ctrl';\n\nexport {\n    UdsEventdropsCtrl as PanelCtrl\n} ;"]}
