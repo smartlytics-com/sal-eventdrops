@@ -156,11 +156,11 @@ export class UdsEventdropsCtrl extends MetricsPanelCtrl {
     const rData = () => {
       const dates = [];
       for (let i = 0; i < 70; i++) {
-        const day = Math.floor(Math.random() * 2) + 1;
-        const hour = Math.floor(Math.random() * 24) + 1;
-        const min = Math.floor(Math.random() * 59);
-        const sec = Math.floor(Math.random() * 59);
-        dates.push({ date: `2018/12/${2 + day} ${hour}:${min}:${sec}`});
+        const day  = Math.floor(Math.random() * 2 );
+        const hour = Math.floor(Math.random() * 23);
+        const min  = Math.floor(Math.random() * 59);
+        const sec  = Math.floor(Math.random() * 59);
+        dates.push({ date: `2018/12/${3 + day} ${hour}:${min}:${sec}`});
       }
       return dates;
     }
