@@ -35,6 +35,7 @@ export class UdsEventdropsCtrl extends MetricsPanelCtrl {
   ready = false;
   series = [];
   nextTickPromise = null;
+  tooltip = null;
 
   /** @ngInject */
   constructor($scope, $injector, private $rootScope) {
@@ -52,6 +53,11 @@ export class UdsEventdropsCtrl extends MetricsPanelCtrl {
     this.events.on('data-error', this.onDataError.bind(this));
     this.events.on('data-snapshot-load', this.onDataReceived.bind(this));
 
+    if (document.getElementsByClassName('event-drops-tooltip').length) {
+      this.tooltip = d3.select('.event-drops-tooltip');
+    } else {
+      this.tooltip = d3.select('body').append('div').classed('event-drops-tooltip', true).style('opacity', 0).style('pointer-events', 'auto');
+    }
     this.updateChart();
   }
 
@@ -88,7 +94,20 @@ export class UdsEventdropsCtrl extends MetricsPanelCtrl {
       drop: {
         // color: d => d.color || 'blue',
         radius: d => d.radius || 5,
-        date: d => new Date(d.date)
+        date: d => new Date(d.date),
+        onMouseOver: d => {
+          this.tooltip.transition().duration(200).style('opacity', 1).style('pointer-events', 'auto');
+          this.tooltip.html(`
+            <div class="event-drops-tooltip-content">
+              <strong class="event-drops-tooltip-title">${d.date}</strong>
+            </div>
+          `)
+          .style('left', `${d3.event.pageX - 20}px`)
+          .style('top',  `${d3.event.pageY + 20}px`);
+        },
+        onMouseOut: () => {
+          this.tooltip.transition().duration(500).style('opacity', 0).style('pointer-events', 'none');
+        }
       },
       zoom: { onZoomEnd: () => { } }
     };

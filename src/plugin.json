@@ -1,22 +1,22 @@
 {
   "type": "panel",
-  "name": "SP Eventdrops",
-  "id": "sp-eventdrops",
+  "name": "SAL Eventdrops",
+  "id": "sal-eventdrops",
 
   "info": {
-    "description": "SP D3 Eventdrops Panel for Grafana.",
+    "description": "SAL D3 Eventdrops Panel for Grafana.",
     "author": {
-      "name": "Segmentproxy",
-      "url": "https://github.com/segmentproxy"
+      "name": "Smartlytics",
+      "url": "https://github.com/smartlytics"
     },
-    "keywords": ["d3", "panel"],
+    "keywords": ["d3", "panel", "eventdrop"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/segmentproxy/sp-eventdrops"},
-      {"name": "MIT License", "url": "https://github.com/segmentproxy/sp-eventdrops"}
+      {"name": "Project site", "url": "https://github.com/smartlytics-com/sal-eventdrops"},
+      {"name": "MIT License", "url": "https://github.com/smartlytics-com/sal-eventdrops"}
     ],
     "screenshots": [
       {"name": "Showcase", "path": "img/screenshot-radar-showcase.jpg"}

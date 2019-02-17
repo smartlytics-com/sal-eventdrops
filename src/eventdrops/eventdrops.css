@@ -4,6 +4,10 @@
     stroke-width: 1px;
 }
 
+.drop {
+    cursor: pointer;
+}
+
 .currentColor,
 .line-separator, .x-axis {
     stroke: #555;
