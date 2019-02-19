@@ -160,7 +160,7 @@ export class UdsEventdropsCtrl extends MetricsPanelCtrl {
 
   onInitEditMode() {
     //console.log('onInitEditMode');
-    this.addEditorTab('Options', 'public/plugins/sp-eventdrops/editor.html', 2);
+    this.addEditorTab('Options', 'public/plugins/sal-eventdrops/editor.html', 2);
   }
 
   onPanelTeardown() {

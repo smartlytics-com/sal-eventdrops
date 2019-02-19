@@ -2,8 +2,8 @@ import { UdsEventdropsCtrl } from './udseventdrops_ctrl';
 import { loadPluginCss } from "grafana/app/plugins/sdk";
 
 loadPluginCss({
-    dark: "plugins/sp-eventdrops/css/event-drops.css",
-    light: "plugins/sp-eventdrops/css/event-drops.css",
+    dark: "plugins/sal-eventdrops/css/event-drops.css",
+    light: "plugins/sal-eventdrops/css/event-drops.css",
 });
 
 export {

@@ -1,7 +1,7 @@
 {
   "type": "panel",
-  "name": "SP Eventdrops",
-  "id": "sp-eventdrops",
+  "name": "SAL Eventdrops",
+  "id": "sal-eventdrops",
 
   "info": {
     "description": "SP D3 Eventdrops Panel for Grafana.",
@@ -15,8 +15,8 @@
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/segmentproxy/sp-eventdrops"},
-      {"name": "MIT License", "url": "https://github.com/segmentproxy/sp-eventdrops"}
+      {"name": "Project site", "url": "https://github.com/segmentproxy/sal-eventdrops"},
+      {"name": "MIT License", "url": "https://github.com/segmentproxy/sal-eventdrops"}
     ],
     "screenshots": [
       {"name": "Showcase", "path": "img/screenshot-radar-showcase.jpg"}
