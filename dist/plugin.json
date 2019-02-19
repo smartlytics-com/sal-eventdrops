@@ -4,10 +4,10 @@
   "id": "sal-eventdrops",
 
   "info": {
-    "description": "SAL D3 Eventdrops Panel for Grafana.",
+    "description": "Smartlytics D3 Eventdrops panel for Grafana.",
     "author": {
-      "name": "Smartlytics",
-      "url": "https://github.com/smartlytics"
+      "name": "Smart Data & Analyitics",
+      "url": "https://github.com/smartlytics-com"
     },
     "keywords": ["d3", "panel", "eventdrop"],
     "logos": {
