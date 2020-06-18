@@ -24,7 +24,7 @@
     "@types/lodash": "4.14.119",
     "@types/node": "10.12.18",
     "ajv": "6.6.2",
-    "angular": "1.7.5",
+    "angular": "1.8.0",
     "autoprefixer": "^9.4.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
